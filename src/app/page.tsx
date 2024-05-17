@@ -1,7 +1,7 @@
 import Image from "next/image";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import React from "react";
-import { Check,Star } from "lucide-react";
+import { Box, Check,Star } from "lucide-react";
 import Phone from "@/components/Phone";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
               </div>
               <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
                 {' '}
-                <span className='bg-purple-500 px-2 text-white'>portfolio</span>{' '}
+                <span className='bg-violet-500 px-2 text-white'>portfolio</span>{' '}
 
               </h1>
               <p className='mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
@@ -26,15 +26,15 @@ export default function Home() {
               <ul className='mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start'>
                 <div className='space-y-2'>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-violet-600' />
                     change the wierd icon, 
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-violet-600' />
                     i keep it in case of 
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-violet-600' />
                     i need to make some kind of preset
                   </li>
                 </div>
@@ -62,11 +62,11 @@ export default function Home() {
 
                 <div className="flex flex-col justify-between items-center sm:items-start">
                   <div className="flex gap-0.5">
-                    <Star className='h-4 w-4 text-purple-500 fill-purple-500'/>
-                    <Star className='h-4 w-4 text-purple-500 fill-purple-500'/>
-                    <Star className='h-4 w-4 text-purple-500 fill-purple-500'/>
-                    <Star className='h-4 w-4 text-purple-500 fill-purple-500'/>
-                    <Star className='h-4 w-4 text-purple-500 fill-purple-500'/>
+                    <Star className='h-4 w-4 text-violet-500 fill-violet-500'/>
+                    <Star className='h-4 w-4 text-violet-500 fill-violet-500'/>
+                    <Star className='h-4 w-4 text-violet-500 fill-violet-500'/>
+                    <Star className='h-4 w-4 text-violet-500 fill-violet-500'/>
+                    <Star className='h-4 w-4 text-violet-500 fill-violet-500'/>
                   </div>
 
                   <p>
@@ -84,6 +84,8 @@ export default function Home() {
               <Phone className="w-64" imgSrc = "/icon-1.png"/>
             </div>
           </div>
+
+          <PixelBox></PixelBox>
         </MaxWidthWrapper>
       </section>
     </div>
