@@ -85,10 +85,10 @@ export default function Home() {
               <Phone className="w-64" imgSrc = "/icon-1.png"/>
             </div>
           </div>
-
-          <PixelBox Title="oui" >
+    
+          <PixelBox Title="portfolio" className="bg-slate-100" >
             <div>
-              <p>kljfhd</p>
+              <img src="/icon-1.png" className="h-64" />
             </div>
           </PixelBox>
         </MaxWidthWrapper>

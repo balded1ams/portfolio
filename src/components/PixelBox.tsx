@@ -13,7 +13,7 @@ const PixelBox = ({
 }) => {
     return <div className={
         cn(
-            "relative h-min w-min px-1.5 border border-purple-500",
+            "relative w-fit h-min px-1.5 border border-purple-500 mt-10",
             className
         )}>
             <div className={
@@ -25,7 +25,7 @@ const PixelBox = ({
             </div>
             <div className={
                 cn(
-                    "relative translate-x-2 flex justify-center items-center h-min w-full border border-purple-500 -m-2 p-2",
+                    "relative -m-2 p-2 translate-x-2 flex justify-center items-center h-min w-full border border-purple-500",
                     className
                     )}>
                 {children}
