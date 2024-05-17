@@ -2,6 +2,7 @@ import Image from "next/image";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import React from "react";
 import { Check,Star } from "lucide-react";
+import Phone from "@/components/Phone";
 
 export default function Home() {
   return (
@@ -78,7 +79,9 @@ export default function Home() {
 
           <div className='col-span-full w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg-mt-20 h-fit'>
             <div className="relative m:max-w-xl">
-              <img src="/" className="" />
+              <img src="/icon-1.png" className="absolute w-40 md:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block" />
+              <img src="/line.png" className="abbsolute w-20 -left-6 -bottom-6" />
+              <Phone className="w-64" imgSrc = "/icon-1.png"/>
             </div>
           </div>
         </MaxWidthWrapper>
