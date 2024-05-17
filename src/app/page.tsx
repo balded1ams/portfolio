@@ -3,6 +3,7 @@ import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import React from "react";
 import { Box, Check,Star } from "lucide-react";
 import Phone from "@/components/Phone";
+import PixelBox from "@/components/PixelBox";
 
 export default function Home() {
   return (
@@ -85,7 +86,11 @@ export default function Home() {
             </div>
           </div>
 
-          <PixelBox></PixelBox>
+          <PixelBox Title="oui" >
+            <div>
+              <p>kljfhd</p>
+            </div>
+          </PixelBox>
         </MaxWidthWrapper>
       </section>
     </div>
