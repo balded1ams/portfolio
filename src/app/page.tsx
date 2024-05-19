@@ -9,8 +9,21 @@ export default function Home() {
   return (
     <div className='bg-[#e4e6d8] grainy-light'>
       <section className="bg-grid">
+        <div className="flex justify-between">
+          <p>
+            Deloper,
+            digital artist
+          </p>
+          <p className="">
+            truc sur moi(coordoné..)
+          </p>
+          <p>
+            placeholder
+          </p>
+        </div>
+
         <MaxWidthWrapper className='pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52'>
-          <div className='col-span-2   px-6 lg:px-0 lg:pt-4'>
+          <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
                 <img src='icon-1.png' className='w-full' />
@@ -63,31 +76,74 @@ export default function Home() {
                     alt='user image'
                   />
                 </div>
+                <PixelBox Title={undefined}>
+                  <div className="flex flex-col justify-between items-center sm:items-start">
+                    <div className="flex gap-0.5">
+                      <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
+                      <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
+                      <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
+                      <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
+                      <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
+                    </div>
+                    <p>
+                      <span className="font-semibold">1.250</span> happy customers
+                    </p>
 
-                <div className="flex flex-col justify-between items-center sm:items-start">
-                  <div className="flex gap-0.5">
-                    <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
-                    <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
-                    <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
-                    <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
-                    <Star className='h-4 w-4 text-[#191a1c] fill-[#191a1c]'/>
                   </div>
-
-                  <p>
-                    <span className="font-semibold">1.250</span> happy customers
-                  </p>
-                </div>
+                                  
+                  </PixelBox>
               </div>
             </div>
           </div>
-    
-          <PixelBox Title={<h1 className="text-lg font-bold ">Mon Titre</h1>} className="bg-[#e4e6d8] ">
-            <div>
-              <img src="/icon-1.png" className="h-64" />
-            </div>
-          </PixelBox>
         </MaxWidthWrapper>
       </section>
+      <section className="bg-[#191a1c] py-24">
+          <MaxWidthWrapper className="flex flex-col items-center gap-4 overflow-hidden">
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+              <div className="mt-2 flex align-center tracking-tight leading-tight fonnt-bold text-5xl md:text-6xl text-[#e4e6d8] shrink-0 gap-5 justify-around text-nowrap">
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+              <div className="flex align-center tracking-tight leading-tight fonnt-bold text-5xl md:text-6xl text-[#e4e6d8] shrink-0 gap-5 justify-around text-nowrap">
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+                <h2>
+                  Projects gallery -
+                </h2>
+              </div>
+            </div>
+          </MaxWidthWrapper>
+          <MaxWidthWrapper className="h-32 text-[#e4e6d8]">
+            {/*projects samples style instagrame*/}
+            <div>
+            </div>
+          </MaxWidthWrapper>
+      </section>
     </div>
-  )
+  ) 
 } 
