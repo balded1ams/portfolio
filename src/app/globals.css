@@ -64,7 +64,7 @@
     .bg-grid {
       background-size: 80px 80px;
       background-image:
-        linear-gradient(to right, violet 1px, transparent 1px),
-        linear-gradient(to bottom, violet  1px, transparent 1px);
+        linear-gradient(to right, #caccc0 1px, transparent 1px),
+        linear-gradient(to bottom, #caccc0 1px, transparent 1px);
     }
   }
