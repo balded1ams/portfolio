@@ -4,10 +4,12 @@ import { ReactNode } from "react"
 
 const PixelBox = ({
     Title,
-    className, 
+    className,
+    classNameTitle,
     children
 }: {
     Title: String,
+    classNameTitle?: String 
     className?: String
     children: ReactNode
 }) => {
@@ -21,6 +23,7 @@ const PixelBox = ({
                     "h-min w-cover mb-1 -mt-2 border-x border-t-[1px] border-purple-500",
                     className
                 )}>
+                    Style = {classNameTitle}
                     {Title}
             </div>
             <div className={
