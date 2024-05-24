@@ -70,7 +70,7 @@
   }
 
 @layer utilities{
-  .shrink-border{
+  .shrink-border{ //https://www.sliderrevolution.com/resources/css-button-hover-effects/
     background-color: transparent
     color: darken($darkblue, 10%)
     
